@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/Afx-Abu/Abu_ser /root/WhatsAbu
+RUN git clone https://github.com/abuthaser/abuser /root/WhatsAbu
 WORKDIR /root/WhatsAbu/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
